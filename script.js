@@ -56,6 +56,8 @@ function displayWelcomeMessage() {
     const welcomeMessages = [
         "¡Bienvenido/a al Chatbot! Me llamo n-AI y estoy aquí para ayudarte. 😊",
         "Dí amigo y entra.🚪",
+        "¡Hola! Soy n-AI, un chatbot creado por Ibai. ¿En qué puedo ayudarte hoy? 🤖",
+        "¡Hola! ¿En qué puedo ayudarte hoy? 🌟"
     ];
 
     // Selecciona un mensaje aleatorio de la lista
