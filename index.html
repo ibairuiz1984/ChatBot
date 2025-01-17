@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chatbot</title>
+    <meta name="description" content="Chatbot simple creado con JavaScript.">
+</head>
+
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+            <!-- Mensajes del chat aparecerán aquí -->
+        </div>
+        <div id="suggestions" class="suggestions-container">
+            <!-- Sugerencias de preguntas -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Escribe tu mensaje..." autocomplete="off">
+            <button type="button" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
