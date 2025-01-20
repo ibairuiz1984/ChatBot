@@ -65,7 +65,7 @@ const normalizeText = (text) => text.toLowerCase()
 const displayWelcomeMessage = () => {
     const welcomeMessages = [
         "¡Bienvenido/a al Chatbot! Me llamo n-AI y estoy aquí para ayudarte. 😊",
-        "Dí amigo y entra.🚪",
+        "Hola, soy especialista en chistes, no dudes en pedirme uno. 😄",
         "¡Hola! Soy n-AI, un chatbot creado por Ibai. ¿En qué puedo ayudarte hoy? 🤖",
         "¡Hola! ¿En qué puedo ayudarte hoy? 🌟"
     ];
