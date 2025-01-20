@@ -50,7 +50,7 @@ const questionMapping = {
     "que te gusta hacer": ["que te gusta hacer", "cuales son tus hobbies", "que haces en tu tiempo libre"],
     "tienes amigos": ["tienes amigos", "eres solitario"],
     "te gusta la musica": ["te gusta la musica", "escuchas musica", "cual es tu cancion favorita"],
-    "puedes contar un chiste": ["puedes contar un chiste", "dime un chiste", "cuenta un chiste"],
+    "puedes contar un chiste": ["puedes contar un chiste", "dime un chiste", "cuenta un chiste", "chiste", "hazme reir", "quiero reir"],
     "como te llamas": ["como te llamas", "cual es tu nombre", "dime tu nombre"],
     "dime una frase inspiradora": ["dime una frase inspiradora", "dame inspiracion", "dame una frase motivacional", "quiero inspirarme"]
 };
