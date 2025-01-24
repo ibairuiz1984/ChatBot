@@ -9,7 +9,7 @@ const responses = {
         "Me siento genial, ¿y tú? 😄"
     ],
     "adios": "¡Adiós! Fue un placer hablar contigo. 😊",
-    "cual es tu nombre": "Mi nombre es n-AI. ¿Y el tuyo? 😊",
+    "cual es tu nombre": "Mi nombre es GitHub Copilot. ¿Y el tuyo? 😊",
     "me siento mal": "Lo siento mucho. ¿Qué ha pasado? A veces hablar ayuda. 💬",
     "estoy feliz": "¡Qué bien! Me alegra saber que estás feliz. ¿Qué te hace sentir así? 🌞",
     "que haces": "Estoy aquí, listo para ayudarte con lo que necesites. 🤖",
@@ -24,12 +24,13 @@ const responses = {
         "¿Cómo se llama el primo vegetariano de Bruce Lee? ¡Brocóli! 🥦",
         "Cómo se llama el hermano limpio de Bruce Willis? ¡Kevin Willis! 🧼",
         "¿Qué le dice una iguana a su hermana gemela? ¡Eres iguanita que yo! 🦎",
-        "¿Qué le dice un jardinero a otro jardinero? ¡Qué cultivado eres! 🌿",
-        "¿Qué hace una abeja en el gimnasio? ¡Zum-ba! 🐝", "¿Cómo se despiden los químicos? Ácido un placer. 🧪",
+        "¿Qué hace una abeja en el gimnasio? ¡Zum-ba! 🐝",
+        "¿Cómo se despiden los químicos? Ácido un placer. 🧪",
         "¿Qué hace una computadora en la playa? ¡Surfing en la Red! 🏄",
         "¿Cuál es el colmo de Aladdín? Tener mal genio. 🧞",
-        "¿Qué le dijo el número cero al número ocho? Bonito cinturón. 🎀"],
-    "como te llamas": "Mi nombre es n-AI. Gracias por preguntar 😊",
+        "¿Qué le dijo el número cero al número ocho? Bonito cinturón. 🎀"
+    ],
+    "como te llamas": "Mi nombre es GitHub Copilot. Gracias por preguntar 😊",
     "dime una frase inspiradora": [
         "La única forma de hacer un gran trabajo es amar lo que haces. - Steve Jobs 🌟",
         "El éxito no es la clave de la felicidad. La felicidad es la clave del éxito. - Albert Schweitzer 🌟",
@@ -64,7 +65,7 @@ const normalizeText = (text) => text.toLowerCase()
 // Función para mostrar un mensaje de bienvenida
 const displayWelcomeMessage = () => {
     const welcomeMessages = [
-        "¡Bienvenido/a al Chatbot! Me llamo n-AI y estoy aquí para ayudarte. 😊",
+        "¡Bienvenido/a al Chatbot! Me llamo GitHub Copilot y estoy aquí para ayudarte. 😊",
         "Hola, soy especialista en chistes, no dudes en pedirme uno. 😄",
         "¡Hola! Soy n-AI, un chatbot creado por Ibai. ¿En qué puedo ayudarte hoy? 🤖",
         "¡Hola! ¿En qué puedo ayudarte hoy? 🌟"
